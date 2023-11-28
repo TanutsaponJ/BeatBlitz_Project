@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function FeaturesCard(props) {
   return (
     <div className="flex flex-col items-center text-center p-5 w-full lg:w-1/4 border-2 border-brightColor bg-[#F0F0F6] cursor-pointer rounded-xl gap-2 hover:shadow-[0_3px_10px_rgb(0,0,0,0.5)]">
@@ -11,5 +13,10 @@ function FeaturesCard(props) {
     </div>
   );
 }
+
+FeaturesCard.propTypes = {
+  icon: PropTypes.element.isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 export default FeaturesCard;
