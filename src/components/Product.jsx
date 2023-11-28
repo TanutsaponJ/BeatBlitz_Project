@@ -18,29 +18,29 @@ function Product() {
         cumque in quaerat saepe magnam.
       </p>
 
-      <div className="flex flex-col lg:flex-row gap-4 mt-4">
+      <div className="flex flex-col lg:flex-row gap-7 mt-4">
         <ProductCard
           img={product1}
           alt="product-image1"
-          val="$299"
+          val="$ 299"
           title="White Headphone"
         />
         <ProductCard
           img={product2}
           alt="product-image1"
-          val="$399"
+          val="$ 399"
           title="Black Headphone"
         />
         <ProductCard
           img={product3}
           alt="product-image1"
-          val="$599"
+          val="$ 599"
           title="Green Headphone"
         />
         <ProductCard
           img={product4}
           alt="product-image1"
-          val="$799"
+          val="$ 799"
           title="Red Headphone"
         />
       </div>
