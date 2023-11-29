@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Product from "./components/Product";
@@ -35,6 +36,10 @@ function App() {
 
           <div id="faq">
             <Faq />
+          </div>
+
+          <div id="footer">
+            <Footer />
           </div>
         </div>
       </main>

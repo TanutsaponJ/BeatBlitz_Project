@@ -16,7 +16,7 @@ function Home() {
         <Button title="Order Now" />
       </div>
 
-      <div>
+      <div className="mt-10">
         <img src={img} alt="img" />
       </div>
     </div>
