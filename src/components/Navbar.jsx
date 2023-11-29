@@ -74,7 +74,7 @@ function Navbar() {
               Contact
             </Link>
             <Link
-              to="Faq"
+              to="faq"
               spy={true}
               smooth={true}
               duration={500}
